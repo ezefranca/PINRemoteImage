@@ -86,7 +86,7 @@
     return [PINRemoteImageCategoryManager updateWithProgressOnView:self];
 }
 
-- (void)setPin_updateWithProgress:(BOOL)updateWithProgress
+- (void)setPin_updateWithProgress:NS_SWIFT_NAME(BOOL)updateWithProgress
 {
     [PINRemoteImageCategoryManager setUpdateWithProgressOnView:updateWithProgress onView:self];
 }
